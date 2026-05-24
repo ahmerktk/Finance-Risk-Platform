@@ -79,8 +79,6 @@ finance-risk-platform/
 ├── predict.py      # Load saved models and run inference
 ├── database.py     # PostgreSQL connection, schema, CRUD operations
 ├── requirements.txt
-├── .env            # Your DB credentials (never uploaded to GitHub)
-├── .env.example    # Safe credentials template
 └── models/         # Saved .pkl model files (generated after training)
 ```
 
