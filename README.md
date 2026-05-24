@@ -78,7 +78,6 @@ finance-risk-platform/
 ├── models.py       # Train all 6 ML models and save as .pkl
 ├── predict.py      # Load saved models and run inference
 ├── database.py     # PostgreSQL connection, schema, CRUD operations
-├── requirements.txt
 └── models/         # Saved .pkl model files (generated after training)
 ```
 
@@ -99,7 +98,7 @@ cd finance-risk-platform
 
 ### 2. Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r required libraries
 ```
 
 ### 3. Configure the database
@@ -179,8 +178,3 @@ Built as a semester project for **AI221 — Machine Learning** demonstrating:
 - Model evaluation and comparison
 - Database integration with a live ML application
 - End-to-end deployment with a web interface
-
----
-
-## 📄 License
-MIT License — free to use, modify, and distribute.
