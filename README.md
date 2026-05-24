@@ -98,7 +98,7 @@ cd finance-risk-platform
 
 ### 2. Install dependencies
 ```bash
-pip install -r required libraries
+pip install {required library}
 ```
 
 ### 3. Configure the database
